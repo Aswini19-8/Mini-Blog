@@ -1,0 +1,17 @@
+.links{
+    display:flex;
+    margin-left:5vh;
+   flex-direction:row;
+   column-gap: 20vh;
+   flex-wrap: wrap;
+   
+}
+.imageLinks{
+    transition: tranform 0.3s ease;
+}
+.imageLinks:hover{
+    transform: translateY(-10px);
+    border-radius: 20px;
+    border: 2px solid orange;
+    box-shadow: 3px 5px 3px 5px orange;
+}
